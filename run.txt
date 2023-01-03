@@ -1,0 +1,2 @@
+celery = celery -A bulk_tasks worker --loglevel=INFO --pool=threads
+flask = flask run
